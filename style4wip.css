@@ -1,0 +1,38 @@
+@font-face {
+    font-family: OMORI;
+    src: url(fonts/OMORI_GAME2.ttf);
+}
+
+body {
+  background-image: url("pics/wipbg.png");
+  background-size: cover;
+  color: black;
+  font-family: OMORI;
+}
+
+.warning{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    font-size: 200%;
+}
+
+#star{
+    width: 200px;
+    height:200px;
+
+}
+
+.link{
+    color: black;
+    font-size: 250%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 10px;
+}
